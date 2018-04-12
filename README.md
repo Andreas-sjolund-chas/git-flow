@@ -2,10 +2,10 @@
 ## Branching
 
 ## Merging
-1. git checkout <branching base>
+1. git checkout `<branching base>`
 2. git pull
-3. git checkout <feature branch>
-4. git rebase <branching base>
+3. git checkout `<feature branch>`
+4. git rebase `<branching base>`
 5. solve possible conflicts
 6. add the solved conflicts with “git add”
 7. git rebase -continue
