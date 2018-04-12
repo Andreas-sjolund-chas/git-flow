@@ -1,6 +1,4 @@
-<img src="https://s3-ap-northeast-1.amazonaws.com/mash-jp/production/posts/33601/77e43d06d94a73c9a220c6a077b523f8575a3794.33653.desktop.png?1487731115" alt="Git flow" style="max-width: 25%;"/>
-
----
+# Gitflow
 
 ## Naming conventions
 
