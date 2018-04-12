@@ -1,21 +1,23 @@
-# Git flow
+# Git flow ![Github logo](https://s3-ap-northeast-1.amazonaws.com/mash-jp/production/posts/33601/77e43d06d94a73c9a220c6a077b523f8575a3794.33653.desktop.png?1487731115 "Github logo")
 
 ## Naming conventions
 
-  ### Feature-branches
+  #### Feature-branches
     Are named after the following standard: `feature/<branch-name>`
 
   > Example: `feature/button-default` || `feature/input-primary`
 
-  ### Hotfix-branches
+  #### Hotfix-branches
     Are named after the following standard: `hotfix/<branch-name>`
 
   > Example: `hotfix/button-typo` || `hotfix/link-broken`
 
+---
 ## Branching
 1. `git pull` - Always do this to make sure you're up to date
 2. `git checkout -b <feature/branch-name>`
 
+---
 ## Merging
 1. `git checkout <base-branch>`
 2. `git pull`
@@ -29,6 +31,7 @@
 
 **NOTE:** Always make sure to assign reviewers when creating a new pull request no matter how big or small your changes are.
 
+---
 ## Managing branches
 > Renaming the current branch:
 
