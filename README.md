@@ -1,29 +1,41 @@
 # Git flow
 
-  ## Branching
-  1. `git pull` - Always do this to make sure you're up to date
-  2. `git checkout -b <feature-branch-name>`
+## Naming
 
-  ## Merging
-  1. `git checkout <base-branch>`
-  2. `git pull`
-  3. `git checkout <feature-branch>`
-  4. `git rebase <base-branch>`
-  5. `solve possible conflicts`
-  6. `add the solved conflicts with “git add”`
-  7. `git rebase -continue`
-  8. `repeat until step 5 - 6 until rebase is done`
-  9. `git push -f`
+  ### Feature-branches
+  Are named after the following standard: `feature/branch-name`
 
-  ## Managing branches
-  > Renaming the current branch:
+  > Example: `feature/button-default` || `feature/input-primary`
 
-  `git branch -m <new-name>`
+  ### Hotfix-branches
+  Are named after the following standard: `hotfix/branch-name`
 
-  > Renaming a branch while currently not in the branch to be renamed:
+  > Example: `hotfix/button-typo` || `hotfix/link-broken`
 
-  `git branch -m <old-name> <new-name>`
+## Branching
+1. `git pull` - Always do this to make sure you're up to date
+2. `git checkout -b <feature-branch-name>`
 
-  > Deleting local branch:
+## Merging
+1. `git checkout <base-branch>`
+2. `git pull`
+3. `git checkout <feature/branch-name>`
+4. `git rebase <base-branch>`
+5. `solve possible conflicts`
+6. `add the solved conflicts with “git add”`
+7. `git rebase -continue`
+8. `repeat until step 5 - 6 until rebase is done`
+9. `git push -f`
 
-  `git branch -d <branch-name>`
+## Managing branches
+> Renaming the current branch:
+
+`git branch -m <new-name>`
+
+> Renaming a branch while currently not in the branch to be renamed:
+
+`git branch -m <old-name> <new-name>`
+
+> Deleting local branch:
+
+`git branch -d <branch-name>`
