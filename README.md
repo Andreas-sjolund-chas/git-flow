@@ -16,8 +16,13 @@
 
 ## Managing branches
 > Renaming the current branch:
+
 git branch -m `<new-name>`
+
 > Renaming a branch while currently not in the branch to be renamed:
+
 git branch -m `<old-name>` `<new-name>`
+
 > Deleting local branch:
+
 git branch -d `<branch-name>`
