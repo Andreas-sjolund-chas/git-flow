@@ -1,14 +1,14 @@
 # Git flow
 
-## Naming
+## Naming conventions
 
   ### Feature-branches
-  Are named after the following standard: `feature/branch-name`
+    Are named after the following standard: `feature/<branch-name>`
 
   > Example: `feature/button-default` || `feature/input-primary`
 
   ### Hotfix-branches
-  Are named after the following standard: `hotfix/branch-name`
+    Are named after the following standard: `hotfix/<branch-name>`
 
   > Example: `hotfix/button-typo` || `hotfix/link-broken`
 
