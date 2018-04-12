@@ -14,7 +14,7 @@
 
 ## Branching
 1. `git pull` - Always do this to make sure you're up to date
-2. `git checkout -b <feature-branch-name>`
+2. `git checkout -b <feature/branch-name>`
 
 ## Merging
 1. `git checkout <base-branch>`
