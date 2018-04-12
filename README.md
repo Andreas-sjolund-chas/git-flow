@@ -27,6 +27,8 @@
 8. `repeat until step 5 - 6 until rebase is done`
 9. `git push -f`
 
+**NOTE:** Always make sure to assign reviewers when creating a new pull request no matter how big or small your changes are.
+
 ## Managing branches
 > Renaming the current branch:
 
